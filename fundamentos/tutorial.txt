@@ -1,0 +1,41 @@
+JAVA SCRIPT
+
+- A linguagem javascript é case senitive (faz diferença entre letras maiúsculas e minúsculas)
+
+- No JS o ; é opcional
+
+- Você pode usar "" ou '' , não é permitido misturar.
+Dica : usar aspas duplas para textos e aspas simples ' para importações.
+
+- Variéveis na liguagem JS são dinâmicamente tipadas.
+     Só existem 5 tipos de variáveis
+        - string (caractere, letra ou numero inteiro ou nao )
+        - number
+        - boolean (verdadeiro ou falso)
+        - function (bloco)
+        - object
+
+Para criar uma constante usamos : const
+Para criar uma variável podemos usar var ou let 
+    var (obsoleto e inseguro (redeclarar a variável)) ------ usar sempre o let
+
+Concatenação (União de textos com variáveis)
+     = (operador de soma) !EVITAR USAR O MAIS (Tipagem dinãmica)
+Usar crase (forma moderna e segura)
+    `texto ${variável}`
+
+_______________________________________________________________________________
+PODEMOS EXECUTAR CÓDIGO javascript NO html de duas formas
+1) Diretamente usando a tag <script> </script>
+2) Criando um documento js e linkando com htmal usando a 
+        tag <script src="script.js"> </script>
+
+
+
+_______________________________________________________________________________
+
+NODE - É UMA PLATAFORMA QUE PERMITE EXECUTAR O JS FORA DO NAVEGADOR DE INTERNET
+
+Comandos NODE:
+node -v (versão do node)
+node arquivo.js (executar o arquivo javascript)
